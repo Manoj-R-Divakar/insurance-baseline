@@ -17,6 +17,7 @@ public class InsuranceController {
     @GetMapping("/health")
     public Map<String, String> health() {
         System.out.println("hi");
+        System.out.println("From Manoj in dev");
         return Map.of(
                 "status", "UP",
                 "application", "insurance-baseline",
